@@ -11,12 +11,17 @@
     </span>
     <header class="major">
         {% if tile.link %}
+
              <h3><a href="{{ tile.link }}" class="link">{{ tile.title }}</a></h3>
+             <ul class="actions">
+                 <li><a href="{{ tile.link }}" class="button next scrolly">{{ tile.description }}</a></li>
+             </ul>
         {% else %}
              <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
+             <p>{{ tile.description }}</p>
         {% endif %}
 
-      <p>{{ tile.description }}</p>
+
     </header>
   </article>
   {% endfor %}
