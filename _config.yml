@@ -3,8 +3,8 @@ title: Crafts Lab 3D
 subtitle: Improving your life
 email: craftslab3d@gmail.com
 description:
-baseurl: # the subpath of your site, e.g. /blog
-url: localhost:4000 # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog
+url: https://craftslab3d.com # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
